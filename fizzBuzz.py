@@ -1,15 +1,13 @@
-inputNumber = int(input("正の整数を入れてね: "))
+number = int(input("正の整数を入れてね: "))
 
-if inputNumber % 15 == 0:
-    output = "FizzBuzz"
+if number % 15 == 0:
+    print("FizzBuzz")
 
-elif inputNumber % 3 == 0:
-    output = "Fizz"
+elif number % 3 == 0:
+    print("Fizz")
 
-elif inputNumber % 5 == 0:
-    output = "Buzz"
+elif number % 5 == 0:
+    print("Buzz")
 
 else:
-    output = str(inputNumber)
-
-print(output)
+    print(str(number))
