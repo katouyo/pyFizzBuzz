@@ -9,9 +9,6 @@ elif inputNumber % 3 == 0:
 elif inputNumber % 5 == 0:
     output = "Buzz"
 
-elif inputNumber % 7 == 0:
-    output = "aaaa"
-
 else:
     output = str(inputNumber)
 
